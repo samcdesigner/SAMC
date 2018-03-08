@@ -20,19 +20,19 @@ body {
 }
 
 @font-face {
-    font-family: "NEOTERIC Bold";
+    font-family: NEOTERIC;
     src: url(fonts/neoteric.ttf);
 }
 @font-face {
-  font-family: "Opificio";
+  font-family: Opificio;
     src: url(fonts/opificio.ttf), url(fonts/opificio.otf);
 }
 @font-face {
-    font-family: "Trench Thin";
+    font-family: Trench;
     src: url(fonts/trench.ttf), url(fonts/trench.otf);
 }
 @font-face {
-    font-family: "Novecento";
+    font-family: Novecento;
     src: url(fonts/novecento.ttf), url(fonts/novecento.otf);
 }
 
@@ -54,7 +54,7 @@ body {
 
 .texto-logo-samc{
   /* Estilo de fuente */
-  font-family: "NEOTERIC Bold", sans-serif;
+  font-family: "NEOTERIC", sans-serif;
   font-size: 38px;
   color:#ffffff;
   margin-bottom: -10px;
@@ -62,7 +62,7 @@ body {
 
 .texto-logo-visual{
   /* Estilo de fuente */
-  font-family: "Trench Thin", sans-serif;
+  font-family: "Trench", sans-serif;
   font-size: 14px;
   color:#ffffff;
   /* Espaciado entre letras */
@@ -124,7 +124,7 @@ body {
 }
 
 .sub-text-4{
-  font-family: "NEOTERIC Bold", sans-serif;
+  font-family: "NEOTERIC", sans-serif;
   font-size: 36px;
   /* Alineación del contenido */
   text-align: center;
@@ -135,7 +135,7 @@ body {
 }
 
 .sub-text-5{
-  font-family: "Trench Thin", sans-serif;
+  font-family: "Trench", sans-serif;
   font-size: 12px;
   letter-spacing: 1px;
   /* Alineación del contenido */
@@ -179,7 +179,7 @@ body {
 
 .texto-about{
     line-height: 30px;
-    font-family: "Opificio", sans-serif;
+    font-family: "Trench", sans-serif;
     font-size: 24px;
     margin-top: 35px;
     margin-left: 15px;
@@ -188,7 +188,7 @@ body {
   @media screen and (max-width: 1200px){
     .texto-about{
       line-height: 30px;
-      font-family: "Trench Thin", sans-serif;
+      font-family: "Trench", sans-serif;
       font-size: 24px;
       margin-top: 35px;
       margin-left: 15px;
@@ -262,7 +262,7 @@ body {
   @media screen and (max-width: 1000px){
     .texto-about{
       line-height: 30px;
-      font-family: "Trench Thin", sans-serif;
+      font-family: "Trench", sans-serif;
       font-size: 24px;
       margin-left: 15px;
       margin-bottom: -5px;
@@ -322,7 +322,7 @@ body {
   @media screen and (max-width: 800px){
     .texto-about{
       line-height: 30px;
-      font-family: "Trench Thin", sans-serif;
+      font-family: "Trench", sans-serif;
       font-size: 18px;
       margin-left: 15px;
       margin-bottom: -15px;
@@ -394,7 +394,7 @@ body {
 @media screen and (max-width: 600px){
   .texto-about{
     line-height: 30px;
-    font-family: "Trench Thin", sans-serif;
+    font-family: "Trench", sans-serif;
     font-size: 18px;
     margin-left: 15px;
     margin-bottom: -25px;
@@ -467,7 +467,7 @@ body {
 @media screen and (max-width: 400px){
   .texto-about{
     line-height: 18px;
-    font-family: "Trench Thin", sans-serif;
+    font-family: "Trench", sans-serif;
     font-size: 18px;
     margin-left: 15px;
     margin-bottom: -25px;
@@ -592,7 +592,7 @@ body {
 
 .contenedor-lista-uno li{
   color: #ffffff;
-  font-family: "Trench Thin", sans-serif;
+  font-family: "Trench", sans-serif;
   font-size: 24px;
 }
 
@@ -1394,7 +1394,7 @@ h6,
 }
 h4,
 h5{
-  font-family: "Trench thin", sans-serif;
+  font-family: "Trench", sans-serif;
   font-size: 28px;
 }
 
@@ -2763,7 +2763,7 @@ textarea.input-lg {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 5px;
-  font-family: "Trench thin", sans-serif;
+  font-family: "Trench", sans-serif;
   font-size: 16px;
 }
 .form-horizontal .form-group {
@@ -4998,7 +4998,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: none;
 }
 .label-default {
-  font-family: "Trench Thin", sans-serif;
+  font-family: "Trench", sans-serif;
   font-size: 16px;
 }
 .label-default[href]:hover,
