@@ -36,6 +36,10 @@ body {
     src: url(fonts/novecento.ttf), url(fonts/novecento.otf);
 }
 
+.description-2{
+  font-family: "Helvetica Neue", sans-serif;
+}
+
 /* Encabezado */
 .introduccion {
   /* Alineación del contenido */
