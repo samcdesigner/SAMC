@@ -4,12 +4,12 @@
 	var id = setInterval(frame, 64);
 
 	function frame(){
-		if (loading == 200){
+		if (loading == 250){
 			clearInterval(id);
 			window.open("portfolio.html", "_self");
 		} else {
 			loading = loading + 1;
-			if(loading == 199) {
+			if(loading == 248) {
 				preload.style.animation = "fadeout 1s ease";
 			}
 		}
