@@ -6,7 +6,7 @@
 	function frame(){
 		if (loading == 250){
 			clearInterval(id);
-			window.open("portfolio.html", "_self");
+			window.open("portfolio", "_self");
 		} else {
 			loading = loading + 1;
 			if(loading == 248) {
